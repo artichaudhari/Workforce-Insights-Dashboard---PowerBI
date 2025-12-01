@@ -104,3 +104,17 @@ Displays overall workforce distribution across departments
 1. Clone or download the repository  
    ```bash
    git clone https://github.com/your-username/Workforce-Insights-Dashboard---PowerBI.git
+
+---
+   ## 📧 **Contact**
+
+👩‍💻 **Arti Chaudhari**  
+🎓 BE Graduate '25  | Aspiring Data Analyst  
+📩 Email: [chaudhariarti2146@gmail.com](mailto:chaudhariarti2146@gmail.com)  
+🌐 GitHub: https://github.com/artichaudhari  
+💼 LinkedIn: https://www.linkedin.com/in/arti-chaudhari-b998a82a9/
+
+---
+
+⭐ **If you found this project helpful, don’t forget to star the repo!**
+
