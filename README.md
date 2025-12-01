@@ -1,134 +1,106 @@
-📊 Workforce Insights Dashboard – Power BI
+# 👥 **Workforce Insights Dashboard – Power BI**
 
-An interactive Power BI dashboard designed to provide deep insights into employee workforce trends, including attrition, demographics, job roles, salary slabs, and travel patterns. This dashboard helps HR teams make data-driven workforce decisions and improve employee retention.
+An interactive **Power BI dashboard** designed to analyze and visualize key **HR and workforce metrics**, including attrition, demographics, job roles, travel behavior, salary slabs, and employee distribution.  
+This dashboard helps HR teams and business leaders make **data-driven decisions** to improve retention, talent management, and workforce planning.
 
-🖼️ Dashboard Preview
+---
 
-🧭 Purpose
+## 🖼️ **Dashboard Preview**
 
-The Workforce Insights Dashboard helps HR professionals understand key employee patterns, identify causes of attrition, analyze demographics, and evaluate job-role-specific trends.
-It supports data-driven HR decisions for employee retention, workforce planning, and policy improvement.
+![Dashboard Screenshot](https://github.com/user-attachments/assets/2aa3772b-fa77-4653-a118-8fe6a7cc89f2)
 
-🧰 Tech Stack
+---
 
-Power BI Desktop – Core platform for visualization and dashboard design
+## 🎯 **Purpose**
 
-Power Query Editor – For data cleaning, shaping, and transformation
+The **Workforce Insights Dashboard** provides a complete overview of employee trends and HR performance by combining data visualization, DAX, and modeling techniques.  
+It is useful for **HR analysts, managers, and decision-makers** to monitor employee behavior, identify attrition risks, and optimize workforce strategies.
 
-DAX (Data Analysis Expressions) – Used for calculated columns, KPIs, and logic
+---
 
-Data Modeling – Relationship building for multi-table analysis
+## 🧰 **Tech Stack**
 
-Excel/CSV Dataset – Source of employee records used for analysis
+- **Power BI Desktop** – For building interactive visuals & reports  
+- **Power Query Editor** – Used for data cleaning and transformation  
+- **DAX (Data Analysis Expressions)** – Calculated measures & KPIs  
+- **Data Modeling** – Creating relationships between HR tables  
+- **Excel / CSV Dataset** – Raw employee dataset used for analysis  
+- **File Formats** – `.pbix` for dashboard, `.png` for preview image  
 
-File Formats – .pbix for dashboard, .png for screenshots
+---
 
-📊 Data Source
+## 📊 **Data Source**
 
-Dataset Includes:
+**Source:** HR Analytics / Workforce dataset  
 
-Employee ID, age, gender, marital status
+**Includes:**
+- Employee demographics (age, gender, marital status)  
+- Job roles, departments, and education details  
+- Salary slabs & monthly income  
+- Travel frequency & working years  
+- Attrition labels for employee exits  
 
-Job roles and departments
+---
 
-Salary slabs & monthly income
+## ✨ **Features & Highlights**
 
-Education field
+### ✔️ **Business Problem**
+Organizations struggle to track attrition drivers, salary trends, and workforce distribution — affecting HR efficiency and retention strategies.
 
-Business travel frequency
+### ✔️ **Goal of the Dashboard**
+To create a **Power BI-based Workforce Insights System** that:
+- Monitors **attrition count & rate**
+- Analyzes **employee distribution by age, education, and job role**
+- Identifies **high-attrition job roles & travel categories**
+- Compares **salary slabs vs attrition**
+- Offers interactive insights for HR decision-making  
 
-Attrition & employment details
+---
 
-Years at company & experience metrics
+## 🧩 **Key Visuals Explained**
 
-✨ Features & Highlights
-✔ Key Business Problem
+📌 **Attrition KPIs:**  
+Shows total employees, attrition count, and attrition rate
 
-HR teams often struggle to understand the root causes of attrition, workforce imbalance, salary disparities, and travel-related stress.
-This dashboard solves these issues through actionable workforce analytics.
+📌 **Attrition by Gender & Age:**  
+Visual breakdown of who is leaving the company
 
-✔ Goal of the Dashboard
+📌 **Attrition by Job Role:**  
+Identifies job roles with the highest turnover
 
-To build an interactive Power BI HR analytics report that:
+📌 **Attrition by Travel Frequency:**  
+Shows if frequent travel impacts employee retention
 
-Tracks the overall attrition rate and count
+📌 **Salary Slab Analysis:**  
+Compares salary ranges against attrition levels
 
-Analyzes attrition by job role, age group, salary slab, and gender
+📌 **Department Overview:**  
+Displays overall workforce distribution across departments
 
-Highlights demographic trends such as education field and age distribution
+---
 
-Explores travel-frequency patterns affecting employee retention
+## 💡 **Business Impact & Insights**
 
-Provides clear insights for workforce planning and HR policy improvements
+- Helps HR teams track **attrition drivers**  
+- Supports **salary & workforce planning**  
+- Identifies **high-risk employee groups**  
+- Improves **strategic HR decision-making**  
+- Enables **better employee engagement strategies**
 
-🧩 Walkthrough of Key Visuals
+---
 
-📈 KPIs (Top Summary Cards):
-Shows total employees, attrition count, attrition rate, average monthly income, and age.
+## 🧠 **Learnings From the Project**
 
-👥 Attrition by Gender & Age Group:
-Breaks down employee exits by age brackets and gender distribution.
+- Performed data cleaning/transformation using **Power Query**  
+- Built HR-based KPIs using **DAX measures**  
+- Designed user-friendly HR visuals with interactive slicers  
+- Applied **data modeling** for accurate insights  
+- Learned how to convert raw HR data into meaningful analytics  
 
-📚 Attrition by Education Field:
-Identifies which educational backgrounds have higher attrition rates.
+---
 
-💼 Job Role Analysis:
-Highlights job roles with highest attrition and overall employee count.
+## ⚙️ **How to Use**
 
-💰 Salary Slab Breakdown:
-Shows attrition trends across income ranges (Upto 5K, 5K–10K, etc.)
-
-🧳 Travel Frequency Impact:
-Displays attrition count by travel behavior — rarely, frequently, non-travel.
-
-📊 Attrition by Department:
-Shows how different departments contribute to overall attrition.
-
-💡 Business Impact & Insights
-
-Helps HR teams reduce attrition through data-driven decisions
-
-Identifies high-risk groups based on age, role, or income
-
-Highlights travel-related stress patterns
-
-Improves workforce planning and organizational structure
-
-Supports better policies for employee well-being and retention
-
-🧠 Project Learnings
-
-Cleaned and transformed HR dataset using Power Query
-
-Created multiple DAX measures for attrition, averages, and comparisons
-
-Applied filters, slicers, and bookmarks for interactive navigation
-
-Designed a visually clear layout using bar charts, pie charts, KPIs, and maps
-
-Improved storytelling using HR-focused visual design principles
-
-⚙️ How to Use
-
-Clone the repository:
-
-git clone https://github.com/artichaudhari/Workforce-Insights-Dashboard---PowerBI.git
-
-
-Open the .pbix file in Power BI Desktop
-
-Explore the visuals and use filters for deep insights
-
-Refresh the dataset if required
-
-📧 Contact
-
-👩‍💻 Arti Chaudhari
-🎓 BE Graduate '25 | Aspiring Data Analyst
-📩 Email: chaudhariarti2146@gmail.com
-
-🌐 GitHub: https://github.com/artichaudhari
-
-💼 LinkedIn: https://www.linkedin.com/in/arti-chaudhari-b998a82a9/
-
-⭐ If you found this dashboard helpful, please star the repository!
+1. Clone or download the repository  
+   ```bash
+   git clone https://github.com/your-username/Workforce-Insights-Dashboard---PowerBI.git
